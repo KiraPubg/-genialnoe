@@ -1,0 +1,58 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	position: relative;
+	margin: 8px;
+}
+
+.scroll__track {
+	position: absolute;
+	left: 1px;
+	display: flex;
+	overflow: hidden;
+}
+
+.scroll__content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	min-width: 100vw;
+	width: 100vw;
+}
+
+.scroll-btn {
+	margin-top: 30px;
+}
+
+.select {
+	max-width: 160px;
+}
+
+.select__content {
+	background: #C4C4C4;
+	border: 1px solid;
+	text-align: center;
+	cursor: pointer;
+}
+
+.select__contents {
+	display: none;
+	text-align: center;
+	border: 1px solid;
+}
+
+.select__contents.active {
+	display: block;
+}
+
+.select__content-text {
+	padding: 15px;
+	cursor: pointer;
+}
+.select__content-text:hover {
+	background: #dbdbdb;
+}
